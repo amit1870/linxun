@@ -120,7 +120,7 @@ fi
 svn_checkout() {
   # checkout given path
   path=$1
-  svn checkout --username patel.amit https://172.30.63.80:18080/svn/"$path"
+  svn checkout --username patel.amit https://:18080/svn/"$path"
 }
 
 # Revert dir with number provide
